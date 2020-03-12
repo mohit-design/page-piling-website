@@ -1,0 +1,275 @@
+@media only screen and (max-width: 767px) {
+	
+	/*------- Common CSS Starts -------*/
+
+.display-table { height: auto; }
+.display-table,
+.display-table-cell-vertical-middle { display: block; }
+.section-name { display: none; }
+.section-heading-desc > h2 { font-size: 1.8rem; margin-bottom: 15px; }
+
+	/*------- Common CSS Ends -------*/
+
+	/*------- PagePiling CSS Starts -------*/
+
+#pp-nav { display: none; }
+
+/*------- PagePiling CSS Ends -------*/
+
+	/*------- Banner Section Starts -------*/
+
+.banner-info { padding: 0 40px; text-align: center; width: 100%; }
+.banner-info > h1 { font-size: 2.4rem; margin-bottom: 15px; }
+.banner-info > h3 { font-size: 1.8rem; margin-bottom: 15px; }
+.banner-info > p { font-size: 1.4rem; }
+
+	/*------- Banner Section Ends -------*/
+
+	/*------- About Us Section Starts -------*/
+
+.bg-about-home { padding: 15px 0; }
+.img-about { margin-bottom: 15px; }
+.about-heading-desc > h2 { font-size: 1.8rem; margin-bottom: 15px; }
+.about-heading-desc > h2:after { width: 100px; }
+.about-heading-desc > p,
+.personal-details > p,
+.personal-details > p > span { font-size: 1.4rem; margin-bottom: 15px; }
+.personal-details > p,
+.personal-details > p:last-child { margin-bottom: 5px; }
+.download-send { display: block; font-size: 1.4rem; margin-top: 15px; padding: 10px; width: 100%; }
+
+	/*------- About Us Section Ends -------*/
+
+	/*------- My Resume Section Starts -------*/
+
+.bg-resume-home { padding: 15px 0; }
+.section-heading-desc > p { font-size: 1.4rem; margin-bottom: 15px; }
+.education-experience-heading > h3 { font-size: 1.8rem; margin-bottom: 15px; }
+.education-experience-listing > li > h3 { font-size: 1.6rem; margin-bottom: 5px; }
+.education-experience-listing > li > p:nth-child(2) { margin-bottom: 5px; }
+.education-experience-listing > li > p:nth-child(2), 
+.education-experience-listing > li > p:nth-child(3) { font-size: 1.4rem; }
+.left-skills-listing, 
+.right-skills-listing { margin-top: 0; }
+.left-skills-listing > li, 
+.right-skills-listing > li { font-size: 1.4rem; margin-bottom: 10px; padding-bottom: 10px; }
+.left-skills-listing > li:last-child { margin-bottom: 10px; }
+.right-skills-listing > li:last-child { margin-bottom: 0; }
+
+	/*------- My Resume Section Ends -------*/
+
+	/*------- My Services Section Starts -------*/
+
+.bg-services-home { padding: 15px 0 0; }
+.panel-services { margin-bottom: 15px; padding: 15px; }
+.service-border-top { width: 50px; }
+.service-border-left { height: 50px; }
+.service-border-bottom { width: 50px; }
+.service-border-right { height: 50px; }
+.panel-services > img { height: 50px; margin-bottom: 15px; }
+.panel-services > h3 { font-size: 1.8rem; margin-bottom: 15px; }
+.panel-services > p { font-size: 1.4rem; text-align: justify; }
+
+	/*------- My Services Section Ends -------*/
+
+	/*------- Gallery Section Starts -------*/
+
+.bg-gallery-home { padding: 15px 0 0; }
+.gallery-listing { margin-bottom: 0; }
+.gallery-listing > li { font-size: 1.6rem; margin-bottom: 15px; }
+.img-gallery { margin-bottom: 15px; }
+
+	/*------- Gallery Section Ends -------*/
+
+	/*------- My Clients Section Starts -------*/
+
+.bg-clients-home { padding: 15px 0; }
+.testimonial-review { padding: 10px; }
+.testimonial-review p { font-size: 1.4rem; padding: 0 0 0 30px; text-align: justify; }
+.testimonial-review p:before { font-size: 1.8rem; top: 0; }
+
+	/*------- My Clients Section Ends -------*/
+
+	/*------- Latest News Section Starts -------*/
+
+.bg-latest-news-home { padding: 15px 0 0; }
+.panel-latest-news { margin-bottom: 15px; }
+.panel-latest-news > img { margin-bottom: 15px; }
+.panel-latest-news > h4 { font-size: 1.6rem; margin-bottom: 15px; }
+.panel-latest-news > p { font-size: 1.4rem; text-align: justify; }
+
+	/*------- Latest News Section Ends -------*/
+
+	/*------- Get In Touch Section Starts -------*/
+
+.bg-get-in-touch-home { padding: 15px 0; }
+.map { margin-bottom: 15px; }
+.get-in-touch-info > h3, 
+.help-info > h3 { font-size: 1.8rem; margin-bottom: 15px; }
+.get-in-touch-info > p,
+.get-in-touch-listing > li { font-size: 1.4rem; text-align: justify; }
+.get-in-touch-listing > li { margin-bottom: 5px; }
+.get-in-touch-listing > li:last-child { margin-bottom: 15px; }
+.form-control-contact,
+.btn-submit { font-size: 1.4rem; }
+
+	/*------- Get In Touch Section Ends -------*/
+
+	/*------- Footer Section Starts -------*/
+
+.bg-footer-home { display: table; height: 100%; padding: 15px 0; }
+.display-table-cell-vertical-middle-footer-home { display: table-cell; }
+.footer-info { left: 0; margin: 0 auto; position: static; top: 0; transform: none; width: 90%; }
+.footer-info > p,
+.footer-social-listing > li > a { font-size: 1.4rem; margin-bottom: 15px; }
+.footer-social-listing { margin-bottom: 15px; }
+
+	/*------- Footer Section Ends -------*/
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	/*------- Common CSS Starts -------*/
+
+.section-name { display: none; }
+.section-heading-desc > h2 { font-size: 2.4rem; }
+
+	/*------- Common CSS Ends -------*/
+
+	/*------- Full Page CSS Starts -------*/
+
+.fp-section.fp-table,
+.fp-tableCell { height: auto !important; }
+
+	/*------- Full Page CSS Ends -------*/
+
+	/*------- About Us Section Starts -------*/
+
+.bg-about-home { padding: 30px 15px; }
+.personal-details-tab > p:last-child { margin-bottom: 15px; }
+.download-send { font-size: 1.6rem; padding: 10px 18px; }
+
+	/*------- About Us Section Ends -------*/
+
+	/*------- My Resume Section Starts -------*/
+
+.bg-resume-home { padding: 30px 15px; }
+
+	/*------- My Resume Section Ends -------*/
+
+	/*------- My Services Section Starts -------*/
+
+.bg-services-home { padding: 30px 15px; }
+.panel-services { margin-bottom: 30px; }
+
+	/*------- My Services Section Ends -------*/
+
+	/*------- Gallery Section Starts -------*/
+
+.bg-gallery-home { padding: 30px 15px; }
+
+	/*------- Gallery Section Ends -------*/
+
+	/*------- My Clients Section Starts -------*/
+
+.bg-clients-home { padding: 30px 15px; }
+
+	/*------- My Clients Section Ends -------*/
+
+	/*------- Latest News Section Starts -------*/
+
+.bg-latest-news-home { padding: 30px 15px; }
+
+	/*------- Latest News Section Ends -------*/
+
+	/*------- Get In Touch Section Starts -------*/
+
+.bg-get-in-touch-home { padding: 30px 15px; }
+
+	/*------- Get In Touch Section Ends -------*/
+
+	/*------- Footer Section Starts -------*/
+
+.bg-footer-home { height: auto; padding: 30px 15px; }
+.footer-info { left: 0; position: static; top: 0; transform: none; }
+
+	/*------- Footer Section Ends -------*/
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+	/*------- Common CSS Starts -------*/
+
+.section-name { display: none; }
+
+	/*------- Common CSS Ends -------*/
+
+	/*------- Full Page CSS Starts -------*/
+
+.fp-section.fp-table,
+.fp-tableCell { height: auto !important; }
+
+	/*------- Full Page CSS Ends -------*/
+
+	/*------- About Us Section Starts -------*/
+
+.bg-about-home { padding: 30px 15px; }
+
+	/*------- About Us Section Ends -------*/
+
+	/*------- My Resume Section Starts -------*/
+
+.bg-resume-home { padding: 30px 15px; }
+
+	/*------- My Resume Section Ends -------*/
+
+	/*------- My Services Section Starts -------*/
+
+.bg-services-home { padding: 30px 15px; }
+
+	/*------- My Services Section Ends -------*/
+	
+	/*------- Gallery Section Starts -------*/
+
+.bg-gallery-home { padding: 30px 15px; }
+
+	/*------- Gallery Section Ends -------*/
+
+	/*------- My Clients Section Starts -------*/
+
+.bg-clients-home { padding: 30px 15px; }
+
+	/*------- My Clients Section Ends -------*/
+
+	/*------- Latest News Section Starts -------*/
+
+.bg-latest-news-home { padding: 30px 15px; }
+
+	/*------- Latest News Section Ends -------*/
+
+	/*------- Get In Touch Section Starts -------*/
+
+.bg-get-in-touch-home { padding: 30px 15px; }
+
+	/*------- Get In Touch Section Ends -------*/
+
+	/*------- Footer Section Starts -------*/
+
+.bg-footer-home { height: auto; padding: 30px 15px; }
+.footer-info { left: 0; position: static; top: 0; transform: none; }
+
+	/*------- Footer Section Ends -------*/
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1350px) {
+	
+	/*------- Common CSS Starts -------*/
+
+.section-name { display: none; }
+
+	/*------- Common CSS Ends -------*/
+
+}

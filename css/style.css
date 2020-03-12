@@ -1,0 +1,222 @@
+/*------- Font Family Starts -------*/
+
+@font-face { font-family: "Muli-Light"; src: url("../fonts/Muli-Light.ttf"); }
+@font-face { font-family: "Muli-Regular"; src: url("../fonts/Muli-Regular.ttf"); }
+@font-face { font-family: "Muli-SemiBold"; src: url("../fonts/Muli-SemiBold.ttf"); }
+@font-face { font-family: "Muli-Bold"; src: url("../fonts/Muli-Bold.ttf"); }
+
+/*------- Font Family Ends -------*/
+
+/*------- Reset CSS Starts -------*/
+
+html { letter-spacing: 1px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+h1,
+h2,
+h3,
+h4,
+p,
+ul { margin: 0; padding: 0; }
+li { list-style-type: none; }
+a,
+a:hover,
+a:focus { text-decoration: none; transition: 0.5s linear; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; }
+
+/*------- Reset CSS Ends -------*/
+
+/*------- Common CSS Starts -------*/
+
+.display-table { display: table; height: 100%; width: 100%; }
+.display-table-cell-vertical-middle { display: table-cell; vertical-align: middle; }
+.section-name { left: 0; position: absolute; top: 50%; transform: translateY(-50%); }
+.section-name > p { color: #000; font: 2.4rem/1.42857143 "Muli-Regular"; position: relative; transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg); -o-transform: rotate(-90deg); }
+.section-name > p:before { background-color: #000; content: ""; display: block; height: 1px; left: -120px; position: absolute; top: 50%; transform: translateY(-50%); width: 100px; }
+.section-name > p:after { background-color: #000; content: ""; display: block; height: 1px; right: -120px; position: absolute; top: 50%; transform: translateY(-50%); width: 100px; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Custom Scrollbar Section Starts -------*/
+
+::-webkit-scrollbar { width: 0; }
+
+/*------- Custom Scrollbar Section Ends -------*/
+
+/*------- PagePiling CSS Starts -------*/
+
+#pp-nav span { height: 10px; width: 10px; }
+.pp-tooltip { color: #000; font: 1.8rem/1.42857143 "Muli-Regular"; top: -7px; }
+.pp-tooltip.right { right: 25px; }
+
+/*------- PagePiling CSS Ends -------*/
+
+/*------- Banner Section Starts -------*/
+
+.bg-banner-home { background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); background: -moz-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); background: -ms-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); background: -o-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); height: 100vh; position: relative; }
+.banner-info { left: 50%; position: absolute; top: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); }
+.banner-info > h1 { color: #000; font: 3.6rem/1.42857143 "Muli-Bold"; margin-bottom: 30px; }
+.banner-info > h3 { color: #000; font: 2.4rem/1.42857143 "Muli-SemiBold"; margin-bottom: 30px; }
+.banner-info > p { color: #000; font: 1.8rem/1.42857143 "Muli-Light"; margin-bottom: 30px; }
+.banner-social-listing > li { display: inline-block; margin-right: 15px; }
+.banner-social-listing > li > a { color: #000; font-size: 1.8rem; }
+.banner-social-listing > li > a:hover { color: #fff; }
+
+/*------- Banner Section Ends -------*/
+
+/*------- About Us Section Starts -------*/
+
+.section-about { background-color: #fff; }
+.bg-about-home { padding: 100px 15px; position: relative; }
+.img-about { width: 100%; }
+.about-heading-desc > h2 { color: #000; font: 3rem/1.42857143 "Muli-SemiBold"; margin-bottom: 30px; padding-bottom: 15px; position: relative; }
+.about-heading-desc > h2:after { background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); background: -moz-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); background: -ms-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); background: -o-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); bottom: 0; content: ""; height: 2px; left: 0; position: absolute; width: 150px; }
+.about-heading-desc > h2 > span { color: #02cec6; }
+.about-heading-desc > p { color: #000; font: 1.8rem/1.42857143 "Muli-Regular"; margin-bottom: 30px; }
+.personal-details > p { color: #000; font: 1.8rem/1.42857143 "Muli-SemiBold"; margin-bottom: 15px; }
+.personal-details > p:last-child { margin-bottom: 30px; }
+.personal-details > p > span { font: 1.8rem/1.42857143 "Muli-Regular"; }
+.download-send { background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); background: -moz-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); background: -ms-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); background: -o-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); background-size: 300% 100%; border-radius: 24px; -webkit-border-radius: 24px; -moz-border-radius: 24px; -ms-border-radius: 24px; -o-border-radius: 24px; color: #000; display: inline-block; font: 1.8rem/1.42857143 "Muli-Regular"; padding: 10px 30px; text-align: center; }
+.download-send:hover { background-position: 100% 0; }
+
+/*------- About Us Section Ends -------*/
+
+/*------- My Resume Section Starts -------*/
+
+.section-resume { background-color: #f1f1f1; }
+.bg-resume-home { padding: 100px 15px; position: relative; }
+.section-heading-desc > h2 { color: #000; font: 3rem/1.42857143 "Muli-SemiBold"; margin-bottom: 30px; padding-bottom: 15px; position: relative; }
+.section-heading-desc > h2:after { background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); background: -moz-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); background: -ms-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); background: -o-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); bottom: 0; content: ""; height: 2px; left: 0; position: absolute; width: 150px; }
+.section-heading-desc > h2 > span { color: #02cec6; }
+.section-heading-desc > p { color: #000; font: 1.8rem/1.42857143 "Muli-Regular"; margin-bottom: 30px; text-transform: capitalize; }
+.education-experience-heading > h3 { color: #000; font: 2.4rem/1.42857143 "Muli-Regular"; margin-bottom: 30px; }
+.education-experience-listing { position: relative; }
+.education-experience-listing:before { background-color: #02cec6; content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 1px; }
+.education-experience-listing > li { display: block; padding-left: 30px; position: relative; }
+.education-experience-listing > li:before { background-color: #fff; border: 2px solid #02cec6; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; content: ""; height: 20px; left: 0; position: absolute; top: 0; transform: translateX(-50%); -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); width: 20px; }
+.education-experience-listing > li > h3 { color: #02cec6; font: 2.4rem/1.42857143 "Muli-Regular"; margin-bottom: 15px; }
+.education-experience-listing > li > p:nth-child(2),
+.education-experience-listing > li > p:nth-child(3) { color: #000; font: 1.8rem/1.42857143 "Muli-Regular"; margin-bottom: 15px; }
+.left-skills-listing,
+.right-skills-listing { margin-top: 50px; }
+.left-skills-listing > li,
+.right-skills-listing > li { color: #000; display: block; font: 1.8rem/1.42857143 "Muli-Regular"; margin-bottom: 15px; padding-bottom: 15px; position: relative; }
+.left-skills-listing > li:last-child,
+.right-skills-listing > li:last-child { margin-bottom: 0; }
+.left-skills-listing > li > span,
+.right-skills-listing > li > span { position: absolute; right: 0; }
+.left-skills-listing > li:before,
+.right-skills-listing > li:before { background-color: #ccc; bottom: 0; content: ""; height: 2px; left: 0; position: absolute; width: 100%; }
+.left-skills-listing > li:nth-child(1):after,
+.left-skills-listing > li:nth-child(2):after,
+.left-skills-listing > li:nth-child(3):after,
+.left-skills-listing > li:nth-child(4):after,
+.right-skills-listing > li:nth-child(1):after,
+.right-skills-listing > li:nth-child(2):after,
+.right-skills-listing > li:nth-child(3):after,
+.right-skills-listing > li:nth-child(4):after { background-color: #02cec6; bottom: 0; content: ""; height: 2px; left: 0; position: absolute; width: 95%; }
+.left-skills-listing > li:nth-child(2):after { width: 75%; }
+.left-skills-listing > li:nth-child(3):after { width: 65%; }
+.left-skills-listing > li:nth-child(4):after { width: 70%; }
+.right-skills-listing > li:nth-child(2):after { width: 65%; }
+.right-skills-listing > li:nth-child(3):after { width: 60%; }
+.right-skills-listing > li:nth-child(4):after { width: 40%; }
+
+/*------- My Resume Section Ends -------*/
+
+/*------- My Services Section Starts -------*/
+
+.section-services { background-color: #fff; }
+.bg-services-home { padding: 100px 15px; position: relative; }
+.panel-services { background-color: #f1f1f1; border-radius: 7px; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; padding: 30px; position: relative; }
+.service-border-top { background-color: #02cec6; height: 2px; left: 0; position: absolute; top: 0; width: 75px; }
+.service-border-left { background-color: #02cec6; height: 75px; left: 0; position: absolute; top: 0; width: 2px; }
+.service-border-bottom { background-color: #02cec6; bottom: 0; height: 2px; position: absolute; right: 0; width: 75px; }
+.service-border-right { background-color: #02cec6; bottom: 0; height: 75px; position: absolute; right: 0; width: 2px; }
+.panel-services > img { margin-bottom: 30px; text-align: center; }
+.panel-services > h3 { color: #000; font: 2.2rem/1.42857143 "Muli-SemiBold"; margin-bottom: 15px; }
+.panel-services > p { color: #000; font: 1.8rem/1.42857143 "Muli-Regular"; }
+
+/*------- My Services Section Ends -------*/
+
+/*------- Gallery Section Starts -------*/
+
+.section-gallery { background-color: #f1f1f1; }
+.bg-gallery-home { padding: 100px 15px; position: relative; }
+.gallery-listing { margin-bottom: 30px; }
+.gallery-listing > li { background-color: transparent; border: 2px solid #02cec6; color: #000; cursor: pointer; display: inline-block; font: 1.8rem/1.42857143 "Muli-Regular"; margin-right: 15px; padding: 5px 20px; transition: 0.3s linear; -webkit-transition: 0.3s linear; -moz-transition: 0.3s linear; -ms-transition: 0.3s linear; -o-transition: 0.3s linear; }
+.gallery-listing > li.active,
+.gallery-listing > li:hover { background-color: #02cec6; color: #fff; }
+.img-gallery { margin-bottom: 30px; width: 100%; }
+
+/*------- Gallery Section Ends -------*/
+
+/*------- My Clients Section Starts -------*/
+
+.section-clients { background-color: #fff; }
+.bg-clients-home { padding: 100px 15px; position: relative; }
+.testimonial { margin: 10px 15px; padding: 0 0 20px 20px; position: relative; }
+.pic { background-color: #fff; border: 1px solid #000; bottom: 0; height: 60px; left: 0; padding: 5px; position: absolute; width: 60px; z-index: 2; }
+.pic img { margin: 0 auto; text-align: center; width: 100%; }
+.testimonial-review { border: 1px solid #000000; padding: 10px 20px; }
+.testimonial-review p { color: #000; font: 1.8rem/1.42857143 "Muli-Regular"; margin-bottom: 15px; padding: 10px 0 0 50px; position: relative; }
+.testimonial-review p:before { content: "\f10d"; font-family: "Font Awesome 5 Free"; font-size: 3rem; font-weight: 900; left: 0; position: absolute; top: 10px; }
+.testimonial-title { color: #00a9a7; font: 1.6rem/1.42857143 "Muli-Regular"; padding: 0 0 0 50px; }
+.testimonial-title a { color: #00a9a7; font: 1.4rem/1.42857143 "Muli-Regular"; }
+.owl-theme .owl-controls { margin-top: 30px; }
+.owl-theme .owl-controls .owl-page span { background: #aaa; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; display: block; height: 8px; margin: 5px; width: 30px; }
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span { background: #02cec6; }
+
+/*------- My Clients Section Ends -------*/
+
+/*------- Latest News Section Starts -------*/
+
+.section-latest-news { background-color: #f1f1f1; }
+.bg-latest-news-home { padding: 100px 15px; position: relative; }
+.panel-latest-news > img { margin-bottom: 30px; width: 100%; }
+.panel-latest-news > h4 { color: #000; font: 1.8rem/1.42857143 "Muli-SemiBold"; margin-bottom: 15px; }
+.panel-latest-news > p { color: #000; font: 1.6rem/1.42857143 "Muli-Regular"; margin-bottom: 15px; }
+.panel-latest-news > p:last-child { margin-bottom: 0; }
+.panel-latest-news > p > a { color: #00a9a7; }
+
+/*------- Latest News Section Ends -------*/
+
+/*------- Get In Touch Section Starts -------*/
+
+.section-get-in-touch { background-color: #fff; }
+.bg-get-in-touch-home { padding: 100px 15px; position: relative; }
+.map { height: 300px; margin-bottom: 30px; width: 100%; }
+.get-in-touch-info > h3,
+.help-info > h3 { color: #00a9a7; font: 2.4rem/1.42857143 "Muli-SemiBold"; margin-bottom: 15px; }
+.get-in-touch-info > p { color: #000; font: 1.6rem/1.42857143 "Muli-Regular"; margin-bottom: 15px; }
+.get-in-touch-listing > li { color: #000; font: 1.8rem/1.42857143 "Muli-SemiBold"; margin-bottom: 15px; }
+.get-in-touch-listing > li > span { font-family: "Muli-Regular"; }
+.input-group-contact { margin-bottom: 15px; }
+.input-group-addon-contact { background-color: #000; border: 0; }
+.input-group-addon-contact > i { color: #fff; font-size: 1.8rem; }
+.form-control-contact { background-color: transparent; border: 2px solid #000; caret-color: #000; color: #000; font: 1.6rem/1.42857143 "Muli-Regular"; height: 40px; letter-spacing: 1px; }
+.form-control-contact::placeholder { color: #000; opacity: 1; }
+.form-control-contact:-ms-input-placeholder { color: #000; }
+.form-control-contact::-ms-input-placeholder { color: #000; }
+.form-control-contact:focus { border-color: #fff; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; outline: 0; }
+textarea.form-control-contact { height: 100px; resize: none; }
+.btn-submit { background-color: #000; border: 2px solid #fff; box-shadow: inset 0 0 0 0 #02cec6; -webkit-box-shadow: inset 0 0 0 0 #02cec6; -moz-box-shadow: inset 0 0 0 0 #02cec6; -ms-box-shadow: inset 0 0 0 0 #02cec6; -o-box-shadow: inset 0 0 0 0 #02cec6; color: #fff; font: 1.8rem/1.42857143 "Muli-Regular"; letter-spacing: 1px; transition: 0.5s linear; width: 100%; }
+.btn-submit:hover,
+.btn-submit:active:hover { box-shadow: inset 0 47px 0 0 #02cec6; -webkit-box-shadow: inset 0 47px 0 0 #02cec6; -moz-box-shadow: inset 0 47px 0 0 #02cec6; -ms-box-shadow: inset 0 47px 0 0 #02cec6; -o-box-shadow: inset 0 47px 0 0 #02cec6; color: #fff; }
+.btn-submit:focus,
+.btn-submit:active:focus { box-shadow: inset 0 0 0 0 #02cec6; -webkit-box-shadow: inset 0 0 0 0 #02cec6; -moz-box-shadow: inset 0 0 0 0 #02cec6; -ms-box-shadow: inset 0 0 0 0 #02cec6; -o-box-shadow: inset 0 0 0 0 #02cec6; color: #fff; outline: 0; }
+
+/*------- Get In Touch Section Ends -------*/
+
+/*------- Footer Section Starts -------*/
+
+.section-footer { background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); background: -moz-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); background: -ms-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); background: -o-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); height: 100vh; }
+.bg-footer-home { padding: 100px 15px; position: relative; }
+.footer-info { left: 50%; position: absolute; top: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); }
+.footer-info > p { color: #000; font: 1.8rem/1.42857143 "Muli-Regular"; margin-bottom: 30px; }
+.footer-info > p:last-child { margin-bottom: 0; }
+.footer-info > p > a { color: #fff; }
+.footer-social-listing { margin-bottom: 30px; }
+.footer-social-listing > li { display: inline-block; margin-right: 15px; }
+.footer-social-listing > li > a { color: #000; font-size: 1.8rem; }
+.footer-social-listing > li > a:hover { color: #00a9a7; }
+
+/*------- Footer Section Ends -------*/
